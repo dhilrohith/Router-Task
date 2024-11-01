@@ -23,7 +23,7 @@ const ProductCard = ({ product, addToCart}) => {
         productContainer flex flex-col outline-none
         shadow-lg items-center p-5 bg-white
         mb-5 rounded-md
-        sm:h-full">
+        sm:h-full hover:scale-105 transition-transform duration-500  ease-in-out hover:cursor-pointer">
             <div>
                 <img src={product.image} alt="image"
                     className="h-[250px] sm:max-h-[150px]" />
